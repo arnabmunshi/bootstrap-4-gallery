@@ -1,0 +1,55 @@
+.card-container {
+  position: relative;
+}
+.image-card {
+  height: 225px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: unset;
+}
+
+.check-circle-container {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 10px;
+  right: 24px;
+  background-color: #fff;
+}
+.inactive-circle-container {
+  display: none;
+  border: 1px solid #000;
+}
+.active-circle-container {
+  display: block;
+  border: 2px solid #fff;
+}
+.card-container:hover .inactive-circle-container {
+  display: block;
+}
+
+.check-icon-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.bg-blue {
+  background-color: blue;
+}
+
+.fa-check {
+  font-size: 10px !important;
+  display: none;
+}
+.color-white {
+  color: #fff;
+  display: block;
+}
+.check-icon-container:hover .fa-check {
+  display: block;
+}
